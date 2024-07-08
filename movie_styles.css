@@ -186,8 +186,9 @@ footer {
 }
 
 .plan img {
-    width: 160px;
-    hight: 160px;
+    width: 100px;
+    hight: 100px;
+    cursor: pointer;
 }
 
 
