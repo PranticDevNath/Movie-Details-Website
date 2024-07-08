@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="movie_styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Movie Search Application</h1>
+        <nav>
+            <ul>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#subscription">Subscription</a></li>
+                <li><a href="#suggestions">Suggestions</a></li>
+                
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="search">
+            <h2>Search for Movies</h2>
+            <input type="text" id="searchInput" placeholder="Enter movie title...">
+            <button onclick="searchMovie()">Search</button>
+            <div id="movieDetails"></div>
+        </section>
+        <section id="subscription">
+            <h2>Subscription Plans</h2>
+            <div class="plans">
+                <div class="plan">
+                    <h3><a href="https://www.primevideo.com" target="_blank"><img src="prime.jpeg"
+                                alt="Amazon Prime"></a></h3>
+                    <button onclick="buyPremiumSubscription1()"> Buy Premium Subscription </button>
+                </div>
+                <div class="plan">
+                    <h3><a href="https://www.netflix.com" target="_blank"><img src="Netflix.jpeg" alt="Netflix"></a>
+                    </h3>
+
+                    <button onclick="buyPremiumSubscription()"> Buy Premium Subscription </button>
+                </div>
+                <div class="plan">
+                    <h3><a href="https://www.disneyplus.com" target="_blank"><img src="hotstar.jpeg" alt="Disney+"></h3>
+
+                    <button onclick="buyPremiumSubscription2()"> Buy Premium Subscription </button>
+                </div>
+            </div>
+        </section>
+        <section id="suggestions">
+            <h2> Movie Suggestions </h2>
+            <div id="suggestionsList"> </div>
+        </section>
+        <section id="contact">
+            
+    </main>
+
+    <footer>
+        <div class="footercontainer">
+            <p> Follow me on social media: </p>
+            <div class="footer">
+                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/PranticsPov?mibextid=ZbWKwL"><img src="OIP (1).jpeg"
+                                alt="Facebook"></a></li>
+                    <li><a href="https://www.linkedin.com/in/prantic-dev-nath"><img src="opi5.webp"
+                                alt="Linkedin"></a></li>
+                    <li><a href="https://www.instagram.com/prantic_dev_nath?igsh=NG5pNWxxOW8xcXNw"><img src="opi1.png"
+                                alt="Instragram"></a></li>
+                    <li><a href="http://www.youtube.com/@PranticsPOV1"><img src="opi2.png" alt="Youtube"></a></li>
+                </ul>
+            </div>
+            <p> &copy; 2024 LIVE WEATHER. All rights reserved.</p>
+        </div>
+
+    </footer>
+    <script src="movie_script.js"></script>
+</body>
+
+</html>

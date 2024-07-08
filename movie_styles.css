@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#search input {
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 400px;
+    margin-right: 0.5rem;
+    
+}
+
+#search button {
+    padding: 0.5rem 1rem;
+}
+
+#movieDetails img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1rem;
+}
+
+.cast-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cast-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 150px;
+    text-align: center;
+}
+
+.cast-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 30%;
+    text-align: center;
+}
+
+.plan h3 {
+    margin-top: 0;
+}
+
+.plan button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+
+.suggestion-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.suggestion-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.suggestion-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+section h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #264f9b;
+    color: #8c0ddb;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.footercontainer {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    /* Original logo color */
+    padding: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+}
+
+.plan {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan {
+    margin-bottom: 10px;
+}
+
+.plan img {
+    width: 150px;
+    cursor: pointer;
+}
+
+
+
+
